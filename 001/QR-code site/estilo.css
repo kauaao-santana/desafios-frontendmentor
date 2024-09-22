@@ -20,18 +20,19 @@ main{
   border-radius: 20px;
   margin: 15vh auto;
   height: 60vh;
+  width: 270px;
   padding: 10px 10px 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-main > img{
-  width: 270px;
-  border-radius: 20px;
-}
-main > div#texto{
+main > div.secao{
     width: 270px;
+    background-color: white;
     display: inline-block;
-
 }
+main > div#imagem > img{
+    width: 270px;
+    border-radius: 20px;
+  }
 main > div#texto > h1{
   color: hsl(228, 53%, 26%);
   font-size: 1.3rem;
